@@ -1,0 +1,13 @@
+.react-logo {
+    width: 90px;
+  animation: logoRotate 7s linear infinite;
+}
+.react-logo:hover {
+  animation-play-state: paused;
+}
+
+@keyframes logoRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

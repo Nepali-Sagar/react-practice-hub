@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Dirtyline;
+  src: url(/src/assets/fonts/Dirtyline.otf);
+}
+
+@font-face {
+  font-family: Gravel;
+  src: url(/src/assets/fonts/Gravelo.otf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/src/assets/fonts/Roboto.ttf);
+}
+
+@font-face {
+  font-family: AmoreChristmas;
+  src: url(/src/assets/fonts/AmoreChristmas.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}

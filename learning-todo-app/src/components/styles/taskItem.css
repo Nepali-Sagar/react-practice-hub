@@ -1,0 +1,52 @@
+
+.taskDetails {
+  width: 95%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.taskName {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+.taskName p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.markCompleted {
+  background-color: white;
+  padding: 2px 15px;
+  border-radius: 50px;
+  font-size: 1.1em;
+  cursor: default;
+  border: 1px solid black;
+  width: 20%;
+}
+
+.markCompleted:hover {
+  background-color: lightgreen;
+}
+
+.taskDelete {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskDelete svg {
+  width: 25px;
+  fill: black;
+}
+
+.taskDelete svg:hover {
+  fill: red;
+  width: 27px;
+}
+

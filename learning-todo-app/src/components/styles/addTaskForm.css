@@ -1,0 +1,51 @@
+
+.addTask {
+  width: 100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskInput {
+  width: 90%;
+  height: 100%;
+}
+
+.taskInput input {
+  width: 100%;
+  height: 100%;
+  font-size: 1.6em;
+  padding: 0 10px;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.taskSubmit {
+  background-color: black;
+  width: 8%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.taskSubmit svg {
+  width: 40px;
+  transform: rotate(40deg);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  fill: white;
+}
+
+.taskSubmit svg:hover {
+  transform: rotate(135deg);
+  background-color: rgb(110, 210, 243);
+  fill: black;
+  transition: all 0.3s ease-in-out;
+}

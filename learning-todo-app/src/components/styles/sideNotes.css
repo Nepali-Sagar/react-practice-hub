@@ -1,0 +1,24 @@
+/* Side Note */
+.sideNote {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.sideNote h1 {
+  font-family: Dirtyline;
+  font-size: 6em;
+  letter-spacing: 2px;
+}
+
+.sideNote textarea {
+  height: 100%;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 1.3em;
+  font-family: Roboto;
+  resize: none;
+  margin-top: -20px;
+}

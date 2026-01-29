@@ -1,0 +1,51 @@
+
+.todo-menu {
+  width: 20%;
+  height: 100%;
+  font-family: Gravel;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.todo-menu div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 40px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 9px;
+  cursor: default;
+}
+
+.todo-menu div svg {
+  width: 30px;
+}
+
+.todo-menu div p {
+  font-size: 1.5em;
+  padding-top: 2px;
+}
+
+.todo-menu div:hover {
+  background-color: black;
+  color: white;
+}
+
+.all-Btn:hover {
+  fill: lightblue;
+}
+
+.completed-Btn:hover {
+  fill: greenyellow;
+}
+
+.pending-Btn:hover {
+  fill: yellow;
+}
+
+.trash-Btn:hover {
+  fill: rgb(237, 84, 115);
+}

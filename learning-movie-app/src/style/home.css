@@ -1,0 +1,42 @@
+.intro-text{
+    font-size: 3em;
+    font-family: Dirtyline;
+}
+
+.movie-search{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+.movies-grid{
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(250, 228, 224); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: max-content;
+    place-items: center;
+    scroll-behavior: smooth;
+}
+
+.search-input input{
+    margin-right: 15px;
+    width: 15vw;
+    height: 4vh;
+    border: none;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    outline: none;
+    padding-left: 10px;
+}
+
+.search-input button{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 10px 5px;
+    font-family: Dirtyline;
+    border-radius: 5px;
+}
