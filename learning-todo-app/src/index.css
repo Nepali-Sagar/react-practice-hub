@@ -1,3 +1,11 @@
+:root{
+  --primary-color: #000080;
+  --secondary-color: #9E2A3A;
+  --accent-color: #FF0000;
+  --font: Roboto;
+  --font-color: #fff;
+}
+
 @font-face {
   font-family: Dirtyline;
   src: url(/src/assets/fonts/Dirtyline.otf);
@@ -28,10 +36,5 @@ html,
 body,
 #root {
   height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: Roboto;
+  font-family: var(--font);
 }

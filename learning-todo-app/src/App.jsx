@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./components/presentational/Header";
-import SideNotes from "./components/presentational/SideNotes";
 import Taskmenu from "./components/presentational/Taskmenu";
 import AddTaskForm from "./components/presentational/AddTaskForm";
 import TaskList from "./components/presentational/TaskList";
@@ -8,14 +7,17 @@ import TaskList from "./components/presentational/TaskList";
 function App() {
   return (
     <>
-      <Header />
+      <header className="header">
+        <Header />
+      </header>
+
       <main className="main">
         <Taskmenu />
         <div className="todo-list">
-          <TaskList />
+          
           <AddTaskForm />
+          <TaskList />
         </div>
-        <SideNotes />
       </main>
     </>
   );
