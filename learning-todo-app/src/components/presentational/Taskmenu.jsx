@@ -20,7 +20,6 @@ function Taskmenu() {
         {/* -------------------------------------------- */}
           <div className="menu-button">
            <Button btnName='all'/>
-           <Button btnName='completed'/>
           </div>
         </div>
   
